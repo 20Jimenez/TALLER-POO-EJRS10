@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cursos</title>
+</head>
+<body>
+    <h1>SISTEMA DE CURSOS</h1>
+    <div>
+        <label for="nombreCurso">Nombre del Curso:</label>
+        <input id="nombreCurso" type="text" required>
+        <br>
+        <label for="nombreEstudiante">Nombre del Estudiante:</label>
+        <input id="nombreEstudiante" type="text" required>
+        <br>
+        <label for="edadEstudiante">Edad del Estudiante:</label>
+        <input id="edadEstudiante" type="number" required>
+        <br>
+        <label for="calificacionEstudiante">Calificación:</label>
+        <input id="calificacionEstudiante" type="number" required>
+        <br>
+        <button id="agregarCurso">Agregar Curso</button>
+        <button id="agregarEstudiante">Agregar Estudiante al Curso</button>
+    </div>
+    <div>
+        <h2>LISTA DE CURSOS</h2>
+        <ul id="lista-cursos"></ul>
+        <button id="mostrarPromediosCursos">Mostrar Promedios de Cursos</button>
+    </div>
+    <script src="sistemaCursos2.js"></script>
+</body>
+</html>

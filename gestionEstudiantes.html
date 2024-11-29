@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Estudiantes</title>
+</head>
+<body>
+    <h1>GESTIÓN DE ESTUDIANTES</h1>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" required>
+        <br>
+        <label for="edad">Edad:</label>
+        <input id="edad" type="number" required>
+        <br>
+        <label for="calificacion">Calificación:</label>
+        <input id="calificacion" type="number" required>
+        <br>
+        <button id="agregarEstudiante">Agregar Estudiante</button>
+    </div>
+    <div>
+        <h2>LISTA DE ESTUDIANTES</h2>
+        <ul id="lista-estudiantes"></ul>
+        <button id="mostrarPromedios">Mostrar Promedios</button>
+    </div>
+    <script src="gestionEstudiantes.js"></script>
+</body>
+</html>

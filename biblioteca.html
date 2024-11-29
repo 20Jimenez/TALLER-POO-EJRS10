@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <h1>BIBLIOTECA</h1>
+    <div>
+        <label for="titulo">Título:</label>
+        <input id="titulo" type="text" required>
+        <br>
+        <label for="autor">Autor:</label>
+        <input id="autor" type="text" required>
+        <br>
+        <label for="tipo">Tipo de libro:</label>
+        <select id="tipo">
+            <option value="fisico">Libro Físico</option>
+            <option value="digital">Libro Digital</option>
+        </select>
+        <br>
+        <button id="agregar">Agregar Libro</button>
+    </div>
+    <div>
+        <h2>LISTADO DE LIBROS</h2>
+        <label for="autorBusqueda">Buscar por autor:</label>
+        <input id="autorBusqueda" type="text">
+        <button id="buscar">Buscar</button>
+        <ul id="lista-libros"></ul>
+    </div>
+    <script src="biblioteca.js"></script>
+</body>
+</html>

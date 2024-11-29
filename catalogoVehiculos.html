@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vehículos</title>
+</head>
+<body>
+    <h1>CATÁLOGO DE VEHÍCULOS</h1>
+    <div>
+        <label for="marca">Marca:</label>
+        <input id="marca" type="text" required>
+        <br>
+        <label for="modelo">Modelo:</label>
+        <input id="modelo" type="text" required>
+        <br>
+        <label for="anio">Año:</label>
+        <input id="anio" type="number" required>
+        <br>
+        <label for="tipo">Tipo:</label>
+        <select id="tipo">
+            <option value="auto">Auto</option>
+            <option value="moto">Moto</option>
+        </select>
+        <br>
+        <button id="agregar">Agregar Vehículo</button>
+    </div>
+    <div>
+        <h2>LISTADO DE VEHÍCULOS</h2>
+        <ul id="lista-vehiculos"></ul>
+        <button id="mostrar">Mostrar Vehículos</button>
+    </div>
+    <script src="catalogoVehiculos.js"></script>
+</body>
+</html>

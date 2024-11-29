@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Productos</title>
+</head>
+<body>
+    <h1>Inventario de Productos</h1>
+
+    <form id="productoForm">
+        <label for="nombre">Nombre del producto:</label>
+        <input type="text" id="nombre" required>
+        <br>
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" required>
+        <br>
+        <label for="cantidadEnStock">Cantidad en stock:</label>
+        <input type="number" id="cantidadEnStock" required>
+        <br>
+        <label for="marca">Marca (solo para electrodomésticos):</label>
+        <input type="text" id="marca">
+        <br>
+        <button type="submit">Agregar Producto</button>
+    </form>
+    <br>
+    <button id="listarBajoStock">Listar Productos con Bajo Stock</button>
+    <div id="resultados"></div>
+
+    <script src="inventarioProductos.js"></script>
+</body>
+</html>

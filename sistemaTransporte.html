@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Transporte</title>
+</head>
+<body>
+    <h1>SISTEMA DE TRANSPORTE</h1>
+    <div>
+        <label for="tipo">Tipo (Autobus/Bicicleta):</label>
+        <input id="tipo" type="text" required>
+        <br>
+        <label for="capacidad">Capacidad:</label>
+        <input id="capacidad" type="number" required>
+        <br>
+        <label for="combustible">Tipo de Combustible:</label>
+        <input id="combustible" type="text" required>
+        <br>
+        <button id="agregar">Agregar Transporte</button>
+    </div>
+    <div>
+        <h2>LISTADO DE TRANSPORTES</h2>
+        <ul id="lista-transportes"></ul>
+        <button id="mostrar">Mostrar Transportes</button>
+    </div>
+    <script src="sistemaTransporte.js"></script>
+</body>
+</html>
